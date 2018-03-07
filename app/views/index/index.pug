@@ -1,0 +1,9 @@
+extends ../includes/lay
+block content
+  .spider(ng-app="spider",ng-controller="vc_spider")
+    header
+      button(ng-click="start()") 开始 
+      button(ng-click="clean()") 清除
+    section
+      textarea(id="spiderText",wrap="virtual",readonly)
+  script(src='/js/index.js')

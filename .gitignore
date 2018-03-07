@@ -1,0 +1,4 @@
+node_modules/
+src/img/*
+wechat-0.0.1/
+.DS_Store
